@@ -20,7 +20,7 @@ The main aim of this application is to simplify the process of calculating diffe
 
 ## Defining Our System
 
-An image: 
+An image: ![alt](http://url/to/img.png)
 
 ## Export a file
 
