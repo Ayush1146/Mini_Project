@@ -1,5 +1,5 @@
 # SDLC Activity Based Learning
-![Banner]()
+![Banner](https://github.com/Ayush1146/Mini_Project/blob/5ed0bd590429bc96242a058be7926caef50059c6/7_Other/resistor.png)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
