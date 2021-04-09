@@ -23,3 +23,7 @@ The main aim of this application is to simplify the process of calculating diffe
 <p align="center">
   <img width="572" height="432" src="https://github.com/Ayush1146/Mini_Project/blob/1e5ea8a72603b83b24e74e071c478d4cf00ea9c9/1_Requirements/project.png">
 </p>
+
+### Explanation :
+* Automated Resistor characteristics generator have following features :
+	* This characteristics generator can work for 3 different types of resistors classified as 4 Band, 5 Band and 6 Band Registers.
