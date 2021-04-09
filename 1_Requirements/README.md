@@ -54,10 +54,11 @@ The main aim of this application is to simplify the process of calculating diffe
 ## High Level Requirements:
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
-| HR01 | User shall be able to add new patient record | Techincal | TBD-S1 | 
-| HR02 | User shall be able to read a patient record | Techincal | TBD-S1 |
+| HR01 | User shall be able to select type of resistor | Technical | TBD-S1 | 
+| HR02 | User shall be able to input the color of bands  | Technical | TBD-S1 |
+| HR03 | Output of the characteristics should be displayed   | Technical | TBD-S1 |
 ## Low Level Requirements:
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
-| HR01 | User shall be able to add new patient record | Techincal | TBD-S1 | 
-| HR02 | User shall be able to read a patient record | Techincal | TBD-S1 |
+| LR01 | User shall be able to add new patient record | Technical | TBD-S1 | 
+| LR02 | User shall be able to read a patient record | Technical | TBD-S1 |
