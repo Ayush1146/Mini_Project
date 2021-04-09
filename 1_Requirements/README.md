@@ -30,5 +30,5 @@ The main aim of this application is to simplify the process of calculating diffe
 
 ### SWOT Analysis :
 <p align="center">
-  <img width="572" height="432" src="https://github.com/Ayush1146/Mini_Project/blob/1e5ea8a72603b83b24e74e071c478d4cf00ea9c9/1_Requirements/project.png">
+  <img width="572" height="432" src="https://github.com/Ayush1146/Mini_Project/blob/583d4705de81ab10c86ec5e47bb92ed1a04fd025/1_Requirements/SWOT%20ANALYSIS.jpg.png">
 </p>
