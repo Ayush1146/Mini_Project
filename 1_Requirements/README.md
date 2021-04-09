@@ -21,5 +21,5 @@ The main aim of this application is to simplify the process of calculating diffe
 ## Defining Our System
 
 <p align="center">
-  <img width="600" height="600" src="https://github.com/Ayush1146/Mini_Project/blob/641903b6f0f598b76f5a523bc58d5eac7286d636/1_Requirements/project.png">
+  <img width="572" height="432" src="https://github.com/Ayush1146/Mini_Project/blob/641903b6f0f598b76f5a523bc58d5eac7286d636/1_Requirements/project.png">
 </p>
