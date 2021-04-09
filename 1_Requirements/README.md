@@ -32,3 +32,17 @@ The main aim of this application is to simplify the process of calculating diffe
 <p align="center">
   <img width="572" height="432" src="https://github.com/Ayush1146/Mini_Project/blob/583d4705de81ab10c86ec5e47bb92ed1a04fd025/1_Requirements/SWOT%20ANALYSIS.jpg.png">
 </p>
+
+# 4W's and 1'H
+
+## What: 
+* The process of calculating the resistance, tolerance and temperature coefficient of resistor was very complicated and time consuming.
+## When:
+* This issue occurs every time we have to calculate the characteristics of a resistor for applying it for some kind of application.
+## Where:
+* In every single project where we need to implement and calculate the characteristics of our resistor.
+## Who:
+* All the industries and the users who works with the application of resistors.
+
+## How:
+* This problem have been caused by complexed and time consuming method of calculating the characteristics of a resistor.
