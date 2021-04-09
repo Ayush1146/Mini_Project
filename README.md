@@ -13,7 +13,7 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
-`5_`      | Documents with test plans and procedures
+`5_Report`      | Documents with test plans and procedures
 `6_ImagesAndVideos`      | Documents with test plans and procedures
 `7_Other`      | Documents with test plans and procedures
 ## Contributors List and Summary
@@ -33,7 +33,7 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-
+3. [Diagrams](https://app.diagrams.net/)
 
 
 
