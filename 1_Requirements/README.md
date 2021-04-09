@@ -6,7 +6,7 @@ We all have studied resistors in our electronics class. Resistor Color Coding us
 
 ## Research
 
-### Automated Resistor Characteristics Generator features and benefits
+### Resistor Characteristics Generator features and benefits
 The main aim of this application is to simplify the process of calculating different characteristics of a Resistor. This can work for 4 Band, 5 Band and 6 Band color coded resistors.
 
 
