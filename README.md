@@ -13,9 +13,9 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
-`5_Report`      | Documents with test plans and procedures
-`6_ImagesAndVideos`      | Documents with test plans and procedures
-`7_Other`      | Documents with test plans and procedures
+`5_Report`      | D
+`6_ImagesAndVideos`      | Images and Videos of running application
+`7_Other`      | Documents
 ## Contributors List and Summary
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
