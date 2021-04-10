@@ -33,6 +33,7 @@ void main()
       
       
             printf( "\n\n\tResistance in ohms:\t%f\n", resistance );
+            
 
      
 }
