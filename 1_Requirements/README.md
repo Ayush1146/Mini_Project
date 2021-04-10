@@ -60,5 +60,5 @@ The main aim of this application is to simplify the process of calculating diffe
 ## Low Level Requirements:
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
-| LR01 | User shall be able to add new patient record | Technical | TBD-S1 | 
-| LR02 | User shall be able to read a patient record | Technical | TBD-S1 |
+| LR01 | Use | Technical | TBD-S1 | 
+| LR02 | Use | Technical | TBD-S1 |
