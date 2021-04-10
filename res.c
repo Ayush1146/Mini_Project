@@ -8,9 +8,9 @@ double  decode_char( char code );
 void main()
 {
      char    code1, code2, code3;     /* one code per band */
-     double  resistance;
+     int  resistance;
      double  color1, color2, color3;  /* decoded values */
-     int     flag;
+     int     flag,x=0;
 
      /* Print codes and prompt for user input. */
      print_codes();
@@ -25,15 +25,17 @@ void main()
      color1 = decode_char( code1 );
      color2 = decode_char( code2 );
      color3 = decode_char( code3 );
+for(int i =0 ; i<color3 ; i++){
 
-  
-          resistance = ( 10.0 * color1  +  color2 )
-                       * pow( 10.0, color3 );
+          x = x*10;
+          i++;
+}
+          resistance = ( 10.0 * color1  +  color2 );
+          
       
       
       
-            printf( "\n\n\tResistance in ohms:\t%f\n", resistance );
-            
+            printf( "\n\n\tResistance in ohms:\t%d\n", resistance );
 
      
 }
