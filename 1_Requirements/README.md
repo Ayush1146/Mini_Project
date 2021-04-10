@@ -23,7 +23,7 @@ The main aim of this application is to simplify the process of calculating diffe
 ## Defining Our System
 
 <p align="center">
-  <img width="572" height="432" src="https://github.com/Ayush1146/Mini_Project/blob/071bdcd1d01dc901d48d5a2986d40b5802180257/1_Requirements/Untitled%20Diagram.png">
+  <img width="450" height="532" src="https://github.com/Ayush1146/Mini_Project/blob/071bdcd1d01dc901d48d5a2986d40b5802180257/1_Requirements/Untitled%20Diagram.png">
 </p>
 
 ### Explanation :
