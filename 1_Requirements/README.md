@@ -2,12 +2,12 @@
 
 # Requirements
 # Introduction
-We all have studied resistors in our electronics class. Resistor Color Coding uses colored bands to easily identify a resistors resistive value, percentage tolerance and temperature Coefficient. In our application we are using Color coding to give the resultant resistance, tolerance and temperature coefficient of the resistor.
+We all have studied resistors in our electronics class. Resistor Colour Coding uses coloured bands to easily identify a resistors resistive value and percentage tolerance. In our application we are using Color coding to calculate the resultant resistance and tolerance of the resistor.
 
 ## Research
 
 ### Resistor Characteristics Generator features and benefits
-The main aim of this application is to simplify the process of calculating different characteristics of a Resistor. This can work for 4 Band, 5 Band and 6 Band color coded resistors.
+The main aim of this application is to simplify the process of calculating different characteristics of a Resistor. This can work for 4 Band and5 Band color coded resistors.
 
 
 
@@ -28,7 +28,7 @@ The main aim of this application is to simplify the process of calculating diffe
 
 ### Explanation :
 * Automated Resistor characteristics generator have following features :
-	* This characteristics generator can work for 3 different types of resistors classified as 4 Band, 5 Band and 6 Band Registers.
+	* This characteristics generator can work for 2 different types of resistors classified as 4 Band and 5 Band Registers.
 
 ### SWOT Analysis :
 <p align="center">
@@ -38,7 +38,7 @@ The main aim of this application is to simplify the process of calculating diffe
 # 4W's and 1'H
 
 ## What: 
-* The process of calculating the resistance, tolerance and temperature coefficient of resistor was very complicated and time consuming.
+* The process of calculating the resistance and tolerance of resistor was very complicated and time consuming.
 ## When:
 * This issue occurs every time we have to calculate the characteristics of a resistor for applying it for some kind of application.
 ## Where:
