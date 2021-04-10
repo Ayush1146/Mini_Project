@@ -60,5 +60,5 @@ The main aim of this application is to simplify the process of calculating diffe
 ## Low Level Requirements:
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
-| LR01 | User| Technical | TBD-S1 | 
+| LR01 | sdhisahfush| Technical | TBD-S1 | 
 | LR02 | User | Technical | TBD-S1 |
