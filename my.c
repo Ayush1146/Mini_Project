@@ -10,11 +10,11 @@ float gettol(char c);
 int main(){
 int t,b1,b2,b3,b4,b5,res;
 char c1,c2,c3,c4,c5;
-printf("Enter the type of resistor:\n");
+printf( "\tEnter the type of resistor:\n" );
 scanf("%d",&t);
 
 if(t==4){
-printf("Type down colors of bands:\n");
+printf( "\tType down colors of bands:\n" );
    printf( "\tFor Black-------------------> B\n" );
    printf( "\tFor Brown-------------------> N\n" );
    printf( "\tFor Red---------------------> R\n" );
@@ -25,7 +25,7 @@ printf("Type down colors of bands:\n");
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold--------------------> G\n" );
+   printf( "\tFor Gold--------------------> C\n" );
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
 
@@ -41,13 +41,13 @@ b3 = getmul(c3);
 b4 = gettol(c4);
 
 res = ((10*b1) + b2 )*b3;
-printf("Resistance of given resistor is: \n");
+printf("\tResistance of given resistor is: \n");
 printf("%d Ohms\n", res);
-printf("Tolerance = %d\n", b4);
+printf("\tTolerance = %d percent\n", b4);
 }
 
 else if(t==5){
-printf("Type down colors of bands\n");
+printf("\tType down colors of bands\n");
    printf( "\tFor Black-------------------> B\n" );
    printf( "\tFor Brown-------------------> N\n" );
    printf( "\tFor Red---------------------> R\n" );
@@ -58,7 +58,7 @@ printf("Type down colors of bands\n");
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold--------------------> G\n" );
+   printf( "\tFor Gold--------------------> C\n" );
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
 
@@ -76,13 +76,13 @@ b4 = getmul(c4);
 b5 = gettol(c5);
 
 res = ((100*b1) + (b2*10) + b3)*b4;
-printf("Resistance of given resistor is: \n");
+printf("\tResistance of given resistor is: \n");
 printf("%d\n", res);
-printf("Tolerance = +-%d\n", b5);
+printf("\tTolerance = +-%d percent\n", b5);
 }
 
 else
-    printf("Support Not available yet");
+    printf("\tSupport Not available yet\n");
 }
 
 
