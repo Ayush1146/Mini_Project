@@ -166,6 +166,8 @@ switch(c) {
 }
 
 }
+
+
 float gettol(char c){
 
 
