@@ -128,6 +128,8 @@ switch(c) {
 
 
 }
+
+
 float getmul(char c){
 
 
