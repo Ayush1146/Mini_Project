@@ -1,4 +1,4 @@
-#include <res_header.h>
+#include <res_operations.h>
 
 int getcode(char c){
 
@@ -79,6 +79,7 @@ switch(c) {
    }
 
 }
+
 float gettol(char c){
 
 
