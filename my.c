@@ -10,12 +10,12 @@ float gettol(char c);
 int main(){
 int t,b1,b2,b3,b4,b5,res;
 char c1,c2,c3,c4,c5;
-printf("Enter the type of resistor\n");
+printf("Enter the type of resistor:\n");
 scanf("%d",&t);
 
-if(t=4){
-printf("Type down colors of bands\n");
-printf( "\t For Black-------------------> B\n" );
+if(t==4){
+printf("Type down colors of bands:\n");
+   printf( "\tFor Black-------------------> B\n" );
    printf( "\tFor Brown-------------------> N\n" );
    printf( "\tFor Red---------------------> R\n" );
    printf( "\tFor Orange------------------> O\n" );
@@ -25,9 +25,9 @@ printf( "\t For Black-------------------> B\n" );
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold-------------------> G\n" );
-   printf( "\tFor Silver-------------------> S\n" );
-   printf( "\tFor None------------------->  X\n" );
+   printf( "\tFor Gold--------------------> G\n" );
+   printf( "\tFor Silver------------------> S\n" );
+   printf( "\tFor None--------------------> X\n" );
 
 
 scanf("%s",&c1);
@@ -46,9 +46,9 @@ printf("%d Ohms\n", res);
 printf("Tolerance = %d\n", b4);
 }
 
-else if(t=5){
+else if(t==5){
 printf("Type down colors of bands\n");
-printf( "\t For Black-------------------> B\n" );
+   printf( "\tFor Black-------------------> B\n" );
    printf( "\tFor Brown-------------------> N\n" );
    printf( "\tFor Red---------------------> R\n" );
    printf( "\tFor Orange------------------> O\n" );
@@ -58,9 +58,9 @@ printf( "\t For Black-------------------> B\n" );
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold-------------------> C\n" );
-   printf( "\tFor Silver-------------------> S\n" );
-   printf( "\tFor None------------------->  X\n" );
+   printf( "\tFor Gold--------------------> G\n" );
+   printf( "\tFor Silver------------------> S\n" );
+   printf( "\tFor None--------------------> X\n" );
 
 
 scanf("%s",&c1);
@@ -68,6 +68,7 @@ scanf("%s",&c2);
 scanf("%s",&c3);
 scanf("%s",&c4);
 scanf("%s",&c5);
+
 b1 = getcode(c1);
 b2 = getcode(c2);
 b3 = getcode(c3);
@@ -76,7 +77,7 @@ b5 = gettol(c5);
 
 res = ((100*b1) + (b2*10) + b3)*b4;
 printf("Resistance of given resistor is: \n");
-printf("%d", res);
+printf("%d\n", res);
 printf("Tolerance = +-%d\n", b5);
 }
 
