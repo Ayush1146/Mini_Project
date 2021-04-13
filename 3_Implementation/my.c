@@ -6,10 +6,21 @@ int getcode(char c);
 float getmul(char c);
 float gettol(char c);
 
+typedef struct{
+	
+	char c1;
+	char c2;
+	char c3;
+	char c4;
+	char c5;
+}color;
 
 int main(){
+
+color band;
+
 int t,b1,b2,b3,b4,b5,res;
-char c1,c2,c3,c4,c5;
+
 printf("Enter the type of resistor:\n");
 scanf("%d",&t);
 
@@ -30,16 +41,16 @@ printf("Type down colors of bands:\n");
    printf( "\tFor None--------------------> X\n" );
 
 
-scanf("%s",&c1);
-scanf("%s",&c2);
-scanf("%s",&c3);
-scanf("%s",&c4);
+scanf("%s",&band.c1);
+scanf("%s",&band.c2);
+scanf("%s",&band.c3);
+scanf("%s",&band.c4);
  
  
-b1 = getcode(c1);
-b2 = getcode(c2);
-b3 = getmul(c3);
-b4 = gettol(c4);
+b1 = getcode(band.c1);
+b2 = getcode(band.c2);
+b3 = getmul(band.c3);
+b4 = gettol(band.c4);
 
 res = ((10*b1) + b2 )*b3;
 printf("Resistance of given resistor is: \n");
@@ -64,17 +75,17 @@ printf("Type down colors of bands\n");
    printf( "\tFor None--------------------> X\n" );
 
 
-scanf("%s",&c1);
-scanf("%s",&c2);
-scanf("%s",&c3);
-scanf("%s",&c4);
-scanf("%s",&c5);
+scanf("%s",&band.c1);
+scanf("%s",&band.c2);
+scanf("%s",&band.c3);
+scanf("%s",&band.c4);
+scanf("%s",&band.c5);
 
-b1 = getcode(c1);
-b2 = getcode(c2);
-b3 = getcode(c3);
-b4 = getmul(c4);
-b5 = gettol(c5);
+b1 = getcode(band.c1);
+b2 = getcode(band.c2);
+b3 = getcode(band.c3);
+b4 = getmul(band.c4);
+b5 = gettol(band.c5);
 
 res = ((100*b1) + (b2*10) + b3)*b4;
 printf("Resistance of given resistor is: \n");
