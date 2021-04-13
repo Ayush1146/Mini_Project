@@ -1,15 +1,35 @@
+/**
+ * @file my.c
+ * @author Ayush Sharma (sharmayush009@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-13
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-
+/**
+ * @brief 
+ * 
+ * @param c 
+ * @return int 
+ */
 int getcode(char c);
 float getmul(char c);
 float gettol(char c);
 
-
+/**
+ * @brief 
+ * 
+ * @return int 
+ */
 int main(){
 int t,b1,b2,b3,b4,b5,res;
-char c1,c2,c3,c4,c5;
+char c[5];
+
 printf("Enter the type of resistor:\n");
 scanf("%d",&t);
 
@@ -30,15 +50,15 @@ printf("Type down colors of bands:\n");
    printf( "\tFor None--------------------> X\n" );
 
 
-scanf("%s",&c1);
-scanf("%s",&c2);
-scanf("%s",&c3);
-scanf("%s",&c4);
+scanf("%s",&c[0]);
+scanf("%s",&c[1]);
+scanf("%s",&c[2]);
+scanf("%s",&c[3]);
 
-b1 = getcode(c1);
-b2 = getcode(c2);
-b3 = getmul(c3);
-b4 = gettol(c4);
+b1 = getcode(c[0]);
+b2 = getcode(c[1]);
+b3 = getmul(c[2]);
+b4 = gettol(c[3]);
 
 res = ((10*b1) + b2 )*b3;
 printf("Resistance of given resistor is: \n");
@@ -63,17 +83,19 @@ printf("Type down colors of bands\n");
    printf( "\tFor None--------------------> X\n" );
 
 
-scanf("%s",&c1);
-scanf("%s",&c2);
-scanf("%s",&c3);
-scanf("%s",&c4);
-scanf("%s",&c5);
 
-b1 = getcode(c1);
-b2 = getcode(c2);
-b3 = getcode(c3);
-b4 = getmul(c4);
-b5 = gettol(c5);
+scanf("%s",&c[0]);
+scanf("%s",&c[1]);
+scanf("%s",&c[2]);
+scanf("%s",&c[3]);
+scanf("%s",&c[4]);
+
+
+b1 = getcode(c[0]);
+b2 = getcode(c[1]);
+b3 = getmul(c[2]);
+b4 = gettol(c[3]);
+b5 = gettol(c[4]);
 
 res = ((100*b1) + (b2*10) + b3)*b4;
 printf("Resistance of given resistor is: \n");
@@ -86,7 +108,12 @@ else
 }
 
 
-
+/**
+ * @brief 
+ * 
+ * @param c 
+ * @return int 
+ */
 int getcode(char c){
 
 switch(c) {
@@ -128,6 +155,12 @@ switch(c) {
 
 
 }
+/**
+ * @brief 
+ * 
+ * @param c 
+ * @return float 
+ */
 float getmul(char c){
 
 
@@ -166,6 +199,14 @@ switch(c) {
 }
 
 }
+
+
+/**
+ * @brief 
+ * 
+ * @param c 
+ * @return float 
+ */
 float gettol(char c){
 
 
