@@ -111,7 +111,7 @@ color band; // declaration of variable of structure
 value num;   // declaration of variable of structure
 
 int t,res;
-
+int *color;
 printf("Enter the type of resistor:\n");
 scanf("%d",&t);
 
@@ -130,6 +130,8 @@ printf("Type down colors of bands:\n");
    printf( "\tFor Gold--------------------> C\n" );
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
+
+color = (float*)calloc(5, sizeof(char));
 
 
 scanf("%s",&band.c1);
