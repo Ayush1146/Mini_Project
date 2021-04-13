@@ -34,7 +34,8 @@ scanf("%s",&c1);
 scanf("%s",&c2);
 scanf("%s",&c3);
 scanf("%s",&c4);
-
+ 
+ 
 b1 = getcode(c1);
 b2 = getcode(c2);
 b3 = getmul(c3);
