@@ -25,7 +25,7 @@ printf("Type down colors of bands:\n");
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold--------------------> G\n" );
+   printf( "\tFor Gold--------------------> C\n" );
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
 
@@ -59,7 +59,7 @@ printf("Type down colors of bands\n");
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold--------------------> G\n" );
+   printf( "\tFor Gold--------------------> C\n" );
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
 
