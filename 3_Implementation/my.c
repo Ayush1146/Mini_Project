@@ -15,9 +15,18 @@ typedef struct{
 	char c5;
 }color;
 
+typedef struct{
+     int b1;
+     int b2;
+     int b3;   
+     int b4;
+     int b5;
+}value;
+
 int main(){
 
 color band;
+value num;
 
 int t,b1,b2,b3,b4,b5,res;
 
@@ -47,15 +56,15 @@ scanf("%s",&band.c3);
 scanf("%s",&band.c4);
  
  
-b1 = getcode(band.c1);
-b2 = getcode(band.c2);
-b3 = getmul(band.c3);
-b4 = gettol(band.c4);
+num.b1 = getcode(band.c1);
+num.b2 = getcode(band.c2);
+num.b3 = getmul(band.c3);
+num.b4 = gettol(band.c4);
 
-res = ((10*b1) + b2 )*b3;
+res = ((10*num.b1) + num.b2 )*num.b3;
 printf("Resistance of given resistor is: \n");
 printf("%d Ohms\n", res);
-printf("Tolerance = %d\n", b4);
+printf("Tolerance = %d\n", num.b4);
 }
 
 else if(t==5){
@@ -81,16 +90,16 @@ scanf("%s",&band.c3);
 scanf("%s",&band.c4);
 scanf("%s",&band.c5);
 
-b1 = getcode(band.c1);
-b2 = getcode(band.c2);
-b3 = getcode(band.c3);
-b4 = getmul(band.c4);
-b5 = gettol(band.c5);
+num.b1 = getcode(band.c1);
+num.b2 = getcode(band.c2);
+num.b3 = getcode(band.c3);
+num.b4 = getmul(band.c4);
+num.b5 = gettol(band.c5);
 
-res = ((100*b1) + (b2*10) + b3)*b4;
+res = ((100*num.b1) + (num.b2*10) + num.b3)*num.b4;
 printf("Resistance of given resistor is: \n");
 printf("%d\n", res);
-printf("Tolerance = +-%d\n", b5);
+printf("Tolerance = +-%d\n", num.b5);
 }
 
 else
@@ -136,8 +145,6 @@ switch(c) {
     default :
          printf("Invalid input \n" );
 }
-
-
 
 }
 
