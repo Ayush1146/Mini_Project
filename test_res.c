@@ -1,34 +1,25 @@
-/**
- * @file my.c
- * @author Ayush Sharma (sharmayush009@gmail.com)
- * @brief 
- * @version 0.1
- * @date 2021-04-13
- * 
- * @copyright Copyright (c) 2021
- * 
- */
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-/**
- * @brief 
- * 
- * @param c 
- * @return int 
- */
+
 int getcode(char c);
 float getmul(char c);
 float gettol(char c);
 
-/**
- * @brief 
- * 
- * @return int 
- */
+typedef struct{
+	
+	char c1;
+	char c2;
+	char c3;
+	char c4;
+	char c5;
+}color;
+
 int main(){
+
+color band;
+
 int t,b1,b2,b3,b4,b5,res;
-char c[5];
 
 printf("Enter the type of resistor:\n");
 scanf("%d",&t);
@@ -50,15 +41,16 @@ printf("Type down colors of bands:\n");
    printf( "\tFor None--------------------> X\n" );
 
 
-scanf("%s",&c[0]);
-scanf("%s",&c[1]);
-scanf("%s",&c[2]);
-scanf("%s",&c[3]);
-
-b1 = getcode(c[0]);
-b2 = getcode(c[1]);
-b3 = getmul(c[2]);
-b4 = gettol(c[3]);
+scanf("%s",&band.c1);
+scanf("%s",&band.c2);
+scanf("%s",&band.c3);
+scanf("%s",&band.c4);
+ 
+ 
+b1 = getcode(band.c1);
+b2 = getcode(band.c2);
+b3 = getmul(band.c3);
+b4 = gettol(band.c4);
 
 res = ((10*b1) + b2 )*b3;
 printf("Resistance of given resistor is: \n");
@@ -83,19 +75,17 @@ printf("Type down colors of bands\n");
    printf( "\tFor None--------------------> X\n" );
 
 
+scanf("%s",&band.c1);
+scanf("%s",&band.c2);
+scanf("%s",&band.c3);
+scanf("%s",&band.c4);
+scanf("%s",&band.c5);
 
-scanf("%s",&c[0]);
-scanf("%s",&c[1]);
-scanf("%s",&c[2]);
-scanf("%s",&c[3]);
-scanf("%s",&c[4]);
-
-
-b1 = getcode(c[0]);
-b2 = getcode(c[1]);
-b3 = getmul(c[2]);
-b4 = gettol(c[3]);
-b5 = gettol(c[4]);
+b1 = getcode(band.c1);
+b2 = getcode(band.c2);
+b3 = getcode(band.c3);
+b4 = getmul(band.c4);
+b5 = gettol(band.c5);
 
 res = ((100*b1) + (b2*10) + b3)*b4;
 printf("Resistance of given resistor is: \n");
@@ -108,12 +98,7 @@ else
 }
 
 
-/**
- * @brief 
- * 
- * @param c 
- * @return int 
- */
+
 int getcode(char c){
 
 switch(c) {
@@ -155,12 +140,8 @@ switch(c) {
 
 
 }
-/**
- * @brief 
- * 
- * @param c 
- * @return float 
- */
+
+
 float getmul(char c){
 
 
@@ -201,12 +182,6 @@ switch(c) {
 }
 
 
-/**
- * @brief 
- * 
- * @param c 
- * @return float 
- */
 float gettol(char c){
 
 
