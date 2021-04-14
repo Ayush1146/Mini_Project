@@ -86,14 +86,7 @@ switch(c) {
 }
 
 // structure user defined data type char to store input of colour band
-typedef struct{
-	
-	char c1;
-	char c2;
-	char c3;
-	char c4;
-	char c5;
-}color;
+
 // structure user defined data type int to store value of colour from band
 typedef struct{
      int b1;
@@ -106,14 +99,21 @@ typedef struct{
 
 // main program begins
 int main(){
+struct color{
+	char c[5];
+};
 
-color band; // declaration of variable of structure
+typedef struct color band;   // declaration of variable of structure
+band *sptr;
+
 value num;   // declaration of variable of structure
 
-int t,res;
+int t,res,i =0;
 
 printf("Enter the type of resistor:\n");
 scanf("%d",&t);
+
+sptr = (band*) calloc (t,sizeof(band));
 
 if(t==4){
 printf("Type down colors of bands:\n");
@@ -131,19 +131,18 @@ printf("Type down colors of bands:\n");
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
 
-
-scanf("%s",&band.c1);
-scanf("%s",&band.c2);
-scanf("%s",&band.c3);
-scanf("%s",&band.c4);
+  while(t--){
+ scanf("%s", &sptr->c[i]);
+ i++;
+  }  
 
 
 float (*fun_ptr_arr[])(char) = {getmul,gettol}; // function pointer array 
  
-num.b1 = getcode(band.c1);
-num.b2 = getcode(band.c2);
-num.b3=(*fun_ptr_arr[0])(band.c3);
-num.b4=(*fun_ptr_arr[1])(band.c4);
+num.b1 = getcode(sptr->c[0]);
+num.b2 = getcode(sptr->c[1]);
+num.b3=(*fun_ptr_arr[0])(sptr->c[2]);
+num.b4=(*fun_ptr_arr[1])(sptr->c[3]);
 
 res = ((10*num.b1) + num.b2 )*num.b3; // logic for calculating resistance
 printf("Resistance of given resistor is: \n");
@@ -168,24 +167,27 @@ printf("Type down colors of bands\n");
    printf( "\tFor None--------------------> X\n" );
 
 
-scanf("%s",&band.c1);
-scanf("%s",&band.c2);
-scanf("%s",&band.c3);
-scanf("%s",&band.c4);
-scanf("%s",&band.c5);
 
-float (*fun_ptr_arr[])(char) = {getmul,gettol};    // function pointer array 
+
+while(t--){
  
-num.b1 = getcode(band.c1);
-num.b2 = getcode(band.c2);
-num.b3 = getcode(band.c3);
-num.b4=(*fun_ptr_arr[0])(band.c4);        
-num.b5=(*fun_ptr_arr[1])(band.c5);
+ scanf("%s", &sptr->c[i]);
+ i++;
+}
+
+
+float (*fun_ptr_arr[])(char) = {getmul,gettol}; // function pointer array 
+ 
+num.b1 = getcode(sptr->c[0]);
+num.b2 = getcode(sptr->c[1]);
+num.b3 = getcode(sptr->c[2]);
+num.b4 = (*fun_ptr_arr[0])(sptr->c[3]);
+num.b5 = (*fun_ptr_arr[1])(sptr->c[4]);
 
 
 res = ((100*num.b1) + (num.b2*10) + num.b3)*num.b4;  // logic for calculating resistance
 printf("Resistance of given resistor is: \n");
-printf("%d\n", res);
+printf("%d Ohms\n", res);
 printf("Tolerance = +-%d percent\n", num.b5);
 }
 
@@ -235,3 +237,9 @@ switch(c) {
 
 
 }
+
+
+
+
+
+
