@@ -46,28 +46,28 @@ TEST_ASSERT_EQUAL(9, getcode('W'));
 }
 
 void test_getmul(void) {
-TEST_ASSERT_EQUAL(1.0, getcode('B')); 
-TEST_ASSERT_EQUAL(10.0, getcode('N')); 
-TEST_ASSERT_EQUAL(100.0, getcode('R')); 
-TEST_ASSERT_EQUAL(1000.0, getcode('O')); 
-TEST_ASSERT_EQUAL(10000.0, getcode('Y'));
-TEST_ASSERT_EQUAL(100000.0, getcode('G')); 
-TEST_ASSERT_EQUAL(1000000.0, getcode('E')); 
-TEST_ASSERT_EQUAL(10000000.0, getcode('V'));
-TEST_ASSERT_EQUAL(0.1, getcode('C'));
-TEST_ASSERT_EQUAL(0.01, getcode('S'));  
+TEST_ASSERT_EQUAL(1.0, getmul('B')); 
+TEST_ASSERT_EQUAL(10.0, getmul('N')); 
+TEST_ASSERT_EQUAL(100.0, getmul('R')); 
+TEST_ASSERT_EQUAL(1000.0, getmul('O')); 
+TEST_ASSERT_EQUAL(10000.0, getmul('Y'));
+TEST_ASSERT_EQUAL(100000.0, getmul('G')); 
+TEST_ASSERT_EQUAL(1000000.0, getmul('E')); 
+TEST_ASSERT_EQUAL(10000000.0, getmul('V'));
+TEST_ASSERT_EQUAL(0.1, getmul('C'));
+TEST_ASSERT_EQUAL(0.01, getmul('S'));  
 }
 
 void test_gettol(void) {
 
-TEST_ASSERT_EQUAL(1.0, getcode('N')); 
-TEST_ASSERT_EQUAL(2.0, getcode('R')); 
-TEST_ASSERT_EQUAL(0.5, getcode('G')); 
-TEST_ASSERT_EQUAL(0.25, getcode('E')); 
-TEST_ASSERT_EQUAL(0.1, getcode('V'));
-TEST_ASSERT_EQUAL(0.05, getcode('A'));
-TEST_ASSERT_EQUAL(5.0, getcode('C'));
-TEST_ASSERT_EQUAL(10.0, getcode('S'));
-TEST_ASSERT_EQUAL(20.0, getcode('X'));
+TEST_ASSERT_EQUAL(1.0, gettol('N')); 
+TEST_ASSERT_EQUAL(2.0, gettol('R')); 
+TEST_ASSERT_EQUAL(0.5, gettol('G')); 
+TEST_ASSERT_EQUAL(0.25, gettol('E')); 
+TEST_ASSERT_EQUAL(0.1, gettol('V'));
+TEST_ASSERT_EQUAL(0.05, gettol('A'));
+TEST_ASSERT_EQUAL(5.0, gettol('C'));
+TEST_ASSERT_EQUAL(10.0, gettol('S'));
+TEST_ASSERT_EQUAL(20.0, gettol('X'));
 }
 
