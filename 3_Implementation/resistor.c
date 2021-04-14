@@ -1,89 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-int getcode(char c);
- 
 
- // declared function for function pointer array
-float getmul(char c){
+#include "header.h"
 
 
-switch(c) {
-
- case 'B':
-          return 1.0;
-   
-     case 'N':
-          return 10.0;
-   
-     case 'R':
-          return 100.0;
-   
-     case 'O':
-          return 1000.0;
-   
-     case 'Y':
-          return 10000.0;
-   
-     case 'G':
-          return 100000.0;
-   
-     case 'E':
-          return 1000000.0;
-   
-     case 'V':
-          return 10000000.0;
-          
-     case 'D':
-          return 0.1;
-
-     case 'S':
-          return 0.01;
-  
-}
-
-}
-
-// declared function for function pointer array
-float gettol(char c){
-
-
-
-switch(c) {
-
-     case 'N':
-          return 1.0;
-   
-     case 'R':
-          return 2.0;
-   
-     case 'G':
-          return 0.5;
-   
-     case 'E':
-          return 0.25;
-   
-     case 'V':
-          return 0.1;
-   
-     case 'A':
-          return 0.05;
-
-     case 'D':
-          return 5.0;
-     case 'S':
-          return 10.0;
-     case 'X':
-          return 20.0;
-   
-
-}
-
-}
-
-
-
-// structure user defined data type int to store value of colour from band
 typedef struct{
      int b1;
      int b2;
@@ -112,7 +33,7 @@ scanf("%d",&t);
 
 sptr = (band*) calloc (t,sizeof(band));
 
-float (*fun_ptr_arr[])(char) = {getmul,gettol};
+float (*fun_ptr_arr[])(char) = {getmul,gettol}; // function pointer array 
 
 if(t==4){
 printf("Type down colors of bands:\n");
@@ -126,7 +47,7 @@ printf("Type down colors of bands:\n");
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold--------------------> D\n" );
+   printf( "\tFor Gold--------------------> C\n" );
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
 
@@ -136,8 +57,6 @@ printf("Type down colors of bands:\n");
  i++;
   }  
 
- 
- 
 num.b1 = getcode(sptr->c[0]);
 num.b2 = getcode(sptr->c[1]);
 num.b3=(*fun_ptr_arr[0])(sptr->c[2]);
@@ -161,7 +80,7 @@ printf("Type down colors of bands\n");
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold--------------------> D\n" );
+   printf( "\tFor Gold--------------------> C\n" );
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
 
@@ -174,7 +93,7 @@ while(t--){
  scanf("%s", &sptr->c[i]);
  i++;
 }
-
+ // function pointer array 
  
 num.b1 = getcode(sptr->c[0]);
 num.b2 = getcode(sptr->c[1]);
@@ -193,46 +112,4 @@ else
     printf("Support Not available yet");
 
     free(sptr);
-}
-
-// function for getting value from colour code
-int getcode(char c){
-
-switch(c) {
-
- case 'B':
-          return 0;
-   
-     case 'N':
-          return 1;
-   
-     case 'R':
-          return 2;
-   
-     case 'O':
-          return 3;
-   
-     case 'Y':
-          return 4;
-   
-     case 'G':
-          return 5;
-   
-     case 'E':
-          return 6;
-   
-     case 'V':
-          return 7;
-   
-     case 'A':
-          return 8;
-   
-     case 'W':
-          return 9;
-    
-    
-}
-
-
-
 }
