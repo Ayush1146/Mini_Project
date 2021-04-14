@@ -85,7 +85,7 @@ switch(c) {
 
 }
 
-// structure user defined data type char to store input of colour band
+
 
 // structure user defined data type int to store value of colour from band
 typedef struct{
@@ -99,6 +99,7 @@ typedef struct{
 
 // main program begins
 int main(){
+// structure user defined data type char to store input of colour band     
 struct color{
 	char c[5];
 };
@@ -132,6 +133,7 @@ printf("Type down colors of bands:\n");
    printf( "\tFor None--------------------> X\n" );
 
   while(t--){
+ // cppcheck-suppress invalidscanf
  scanf("%s", &sptr->c[i]);
  i++;
   }  
@@ -171,6 +173,7 @@ printf("Type down colors of bands\n");
 
 while(t--){
  
+ // cppcheck-suppress invalidscanf
  scanf("%s", &sptr->c[i]);
  i++;
 }
