@@ -19,6 +19,8 @@ endif
 SRC = main.c\
 src/operations.c
 
+COV_SRC = test.c
+
 TEST_SRC = src/operations.c\
 test/test.c\
 unity/unity.c\
@@ -44,18 +46,18 @@ all: $(SRC) $(BUILD)
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT)
 
+
 cppcheck:
 	cppcheck --enable=all $(SRC) main.c
 
-
 valgrind:
 	valgrind ./$(PROJECT_OUTPUT)
-
+		
 doc:
 	make -C ./documentation
 	
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS) -lm
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lm
 	./$(TEST_OUTPUT)
 
 
@@ -64,4 +66,28 @@ clean:
 	
 $(BUILD):
 	mkdir build
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
