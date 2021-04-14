@@ -112,6 +112,8 @@ scanf("%d",&t);
 
 sptr = (band*) calloc (t,sizeof(band));
 
+float (*fun_ptr_arr[])(char) = {getmul,gettol};
+
 if(t==4){
 printf("Type down colors of bands:\n");
    printf( "\tFor Black-------------------> B\n" );
@@ -134,8 +136,7 @@ printf("Type down colors of bands:\n");
  i++;
   }  
 
-
-float (*fun_ptr_arr[])(char) = {getmul,gettol}; // function pointer array 
+ 
  
 num.b1 = getcode(sptr->c[0]);
 num.b2 = getcode(sptr->c[1]);
@@ -174,8 +175,6 @@ while(t--){
  i++;
 }
 
-
-float (*fun_ptr_arr[])(char) = {getmul,gettol}; // function pointer array 
  
 num.b1 = getcode(sptr->c[0]);
 num.b2 = getcode(sptr->c[1]);
