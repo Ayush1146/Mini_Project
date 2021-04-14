@@ -3,8 +3,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI](https://github.com/Ayush1146/Mini_Project/actions/workflows/c-build.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/c-build.yml) | [![cppcheck-action](https://github.com/Ayush1146/Mini_Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/cppcheck.yml)
- |  [![Unit testing](https://github.com/Ayush1146/Mini_Project/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/unit-test.yml) | [![Contribution Check - Git Inspector](https://github.com/Ayush1146/Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/gitinspector.yml)
+[![C/C++ CI](https://github.com/Ayush1146/Mini_Project/actions/workflows/c-build.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/c-build.yml) | [![cppcheck-action](https://github.com/Ayush1146/Mini_Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/cppcheck.yml) [![Valgrind](https://github.com/Ayush1146/Mini_Project/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/Valgrind.yml) | [![Unit testing](https://github.com/Ayush1146/Mini_Project/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/unit-test.yml) |  [![Contribution Check - Git Inspector](https://github.com/Ayush1146/Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure
