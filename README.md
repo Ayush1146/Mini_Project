@@ -3,7 +3,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI](https:/l) | To be added | To be added | To be added
+[![C/C++ CI](https://github.com/Ayush1146/Mini_Project/actions/workflows/c-build.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/c-build.yml) | To be added | To be added | To be added
 
 
 ## Folder Structure
