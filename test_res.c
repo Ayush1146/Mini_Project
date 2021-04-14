@@ -11,28 +11,28 @@ float getmul(char c){
 switch(c) {
 
  case 'B':
-          return 1;
+          return 1.0;
    
      case 'N':
-          return 10;
+          return 10.0;
    
      case 'R':
-          return 100;
+          return 100.0;
    
      case 'O':
-          return 1000;
+          return 1000.0;
    
      case 'Y':
-          return 10000;
+          return 10000.0;
    
      case 'G':
-          return 100000;
+          return 100000.0;
    
      case 'E':
-          return 10*6;
+          return 1000000.0;
    
      case 'V':
-          return 10*7;
+          return 10000000.0;
      case 'C':
         return 0.1;
      case 'S':
@@ -51,14 +51,11 @@ float gettol(char c){
 
 switch(c) {
 
-
-   
      case 'N':
-          return 1;
+          return 1.0;
    
      case 'R':
-          return 2;
-   
+          return 2.0;
    
      case 'G':
           return 0.5;
@@ -73,19 +70,19 @@ switch(c) {
           return 0.05;
 
      case 'C':
-        return 5;
+          return 5.0;
      case 'S':
-        return 10;
+          return 10.0;
      case 'X':
-        return 20;
+          return 20.0;
      default :
-         printf("Invalid input \n" );
+          printf("Invalid input \n" );
 
 }
 
 }
 
-// structure user defined data type char to store input of colour band
+
 
 // structure user defined data type int to store value of colour from band
 typedef struct{
@@ -99,6 +96,7 @@ typedef struct{
 
 // main program begins
 int main(){
+// structure user defined data type char to store input of colour band     
 struct color{
 	char c[5];
 };
@@ -235,5 +233,7 @@ switch(c) {
     default :
          printf("Invalid input \n" );
 }
+
+
 
 }
