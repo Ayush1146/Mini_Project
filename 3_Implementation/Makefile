@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = Resistor
+PROJECT_NAME = resistor
 
 BUILD = build
 
