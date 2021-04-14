@@ -44,6 +44,13 @@ all: $(SRC) $(BUILD)
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT)
 
+cppcheck:
+	cppcheck --enable=all $(SRC) main.c
+
+
+valgrind:
+	valgrind ./$(PROJECT_OUTPUT)
+
 doc:
 	make -C ./documentation
 	
