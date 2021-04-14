@@ -52,8 +52,8 @@ printf("Type down colors of bands:\n");
    printf( "\tFor None--------------------> X\n" );
 
   while(t--){
- // cppcheck-suppress invalidscanf
- scanf("%s", &sptr->c[i]);
+
+ scanf("%1s", &sptr->c[i]);
  i++;
   }  
 
@@ -89,8 +89,7 @@ printf("Type down colors of bands\n");
 
 while(t--){
  
- // cppcheck-suppress invalidscanf
- scanf("%s", &sptr->c[i]);
+ scanf("%1s", &sptr->c[i]);
  i++;
 }
  // function pointer array 
