@@ -19,5 +19,5 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
       run: |
-        make test -C MiniProject_C/3_Implementation/
-        valgrind ./MiniProject_C/3_Implementation/build/resistor.out
+        make test -C Mini_Project/3_Implementation/
+        valgrind ./Mini_Project/3_Implementation/build/resistor.out
