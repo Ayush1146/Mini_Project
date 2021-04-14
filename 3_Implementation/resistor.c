@@ -33,13 +33,13 @@ switch(c) {
    
      case 'V':
           return 10000000.0;
-     case 'C':
-        return 0.1;
+          
+     case 'D':
+          return 0.1;
+
      case 'S':
-     return 0.01;
+          return 0.01;
   
-     default :
-         printf("Invalid input \n" );
 }
 
 }
@@ -69,14 +69,13 @@ switch(c) {
      case 'A':
           return 0.05;
 
-     case 'C':
+     case 'D':
           return 5.0;
      case 'S':
           return 10.0;
      case 'X':
           return 20.0;
-     default :
-          printf("Invalid input \n" );
+   
 
 }
 
@@ -125,7 +124,7 @@ printf("Type down colors of bands:\n");
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold--------------------> C\n" );
+   printf( "\tFor Gold--------------------> D\n" );
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
 
@@ -161,7 +160,7 @@ printf("Type down colors of bands\n");
    printf( "\tFor Violet------------------> V\n" );
    printf( "\tFor Gray--------------------> A\n" );
    printf( "\tFor White-------------------> W\n" );
-   printf( "\tFor Gold--------------------> C\n" );
+   printf( "\tFor Gold--------------------> D\n" );
    printf( "\tFor Silver------------------> S\n" );
    printf( "\tFor None--------------------> X\n" );
 
@@ -232,8 +231,7 @@ switch(c) {
      case 'W':
           return 9;
     
-    default :
-         printf("Invalid input \n" );
+    
 }
 
 
