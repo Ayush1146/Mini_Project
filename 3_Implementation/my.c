@@ -193,6 +193,8 @@ printf("Tolerance = +-%d percent\n", num.b5);
 
 else
     printf("Support Not available yet");
+
+    free(sptr);
 }
 
 // function for getting value from colour code
