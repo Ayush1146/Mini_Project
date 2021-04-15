@@ -20,7 +20,7 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`258344` | Ayush Sharma  | Feature A, B etc    | X No     | X No   |3 |3     
+`258344` | Ayush Sharma  | Works for both 4 and 5 Band resistors \n Calculates Resistance \n Calculates Tolerance | X No     | X No   |3 |3     
    
 
 ## Challenges Faced and How Was It Overcome
