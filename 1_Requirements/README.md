@@ -65,4 +65,7 @@ The main aim of this application is to simplify the process of calculating diffe
 |LR02| Throw an error if the choice is out of bound | HR01 | IMPLEMENTED |
 |LR03| User has to enter the colour of bands in an Orderd way | HR02 | IMPLEMENTED |
 |LR04| Throw an error if the enterd input is out of bound | HR02 | IMPLEMENTED |
-|LR05| Throw an error if any absurd value is detected | HR03 | IMPLEMENTED |
+|LR05| Throw an error if any absurd value is detected | HR02 | IMPLEMENTED |
+|LR06| Calculating the resistance value by applying logic | HR03 | IMPLEMENTED |
+|LR07| Calculating the tolerance value by applying logic | HR03 | IMPLEMENTED |
+|LR08| Printing the resultant Resistance and Tolerance of Resistor | HR03 | IMPLEMENTED |
