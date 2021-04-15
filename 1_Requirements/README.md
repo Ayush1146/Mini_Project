@@ -54,9 +54,9 @@ The main aim of this application is to simplify the process of calculating diffe
 ## High Level Requirements:
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
-| HR01 | User shall be able to select type of resistor | Technical | TBD-S1 | 
-| HR02 | User shall be able to input the color of bands  | Technical | TBD-S1 |
-| HR03 | Output of the characteristics should be displayed   | Technical | TBD-S1 |
+| HR01 | User shall be able to select type of resistor | Technical | IMPLEMENTED | 
+| HR02 | User shall be able to input the color of bands  | Technical | IMPLEMENTED |
+| HR03 | Output of the characteristics should be displayed   | Technical | IMPLEMENTED|
 ## Low Level Requirements:
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
