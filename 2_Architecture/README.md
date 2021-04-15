@@ -11,4 +11,4 @@
 
 ## Low Level Design
 
-https://github.com/Ayush1146/Mini_Project/blob/aeae403e89d7fde83a94a88366a0fdbaf44d58aa/2_Architecture/structure%20Diagrams/LOW%20LEVEL.png
+![LowLevelBehaviouralDiagram](https://github.com/Ayush1146/Mini_Project/blob/aeae403e89d7fde83a94a88366a0fdbaf44d58aa/2_Architecture/structure%20Diagrams/LOW%20LEVEL.png)
