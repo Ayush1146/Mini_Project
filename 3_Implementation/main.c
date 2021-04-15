@@ -26,12 +26,12 @@ band *sptr;
 
 value num;   // declaration of variable of structure
 
-int t,res,i =0;
+int t,res,i = 0;
 
 printf("Enter the type of resistor:\n");
 scanf("%d",&t);
 
-sptr = (band*) calloc (t,sizeof(band));
+sptr = (band*) calloc (t,sizeof(band)); // Dynamic memory allocation
 
 float (*fun_ptr_arr[])(char) = {getmul,gettol}; // function pointer array 
 
@@ -57,15 +57,15 @@ printf("Type down colors of bands:\n");
  i++;
   }  
 
-num.b1 = getcode(sptr->c[0]);
-num.b2 = getcode(sptr->c[1]);
-num.b3=(*fun_ptr_arr[0])(sptr->c[2]);
-num.b4=(*fun_ptr_arr[1])(sptr->c[3]);
+num.b1 = getcode(sptr->c[0]); // getcode function is called 
+num.b2 = getcode(sptr->c[1]); // getcode function is called 
+num.b3=(*fun_ptr_arr[0])(sptr->c[2]); // calling getmul function through function pointer array
+num.b4=(*fun_ptr_arr[1])(sptr->c[3]); // calling gettol function through function pointer array
 
 res = ((10*num.b1) + num.b2 )*num.b3; // logic for calculating resistance
-printf("Resistance of given resistor is: \n");
+printf("Resistance of given resistor is: \n"); // prints resistance
 printf("%d Ohms\n", res);
-printf("Tolerance = +-%d percent\n", num.b4);
+printf("Tolerance = +-%d percent\n", num.b4);  // prints tolerance
 }
 
 else if(t==5){
@@ -89,16 +89,16 @@ printf("Type down colors of bands\n");
 
 while(t--){
  
- scanf("%1s", &sptr->c[i]);
+ scanf("%1s", &sptr->c[i]); // function pointer array 
  i++;
 }
- // function pointer array 
  
-num.b1 = getcode(sptr->c[0]);
-num.b2 = getcode(sptr->c[1]);
-num.b3 = getcode(sptr->c[2]);
-num.b4 = (*fun_ptr_arr[0])(sptr->c[3]);
-num.b5 = (*fun_ptr_arr[1])(sptr->c[4]);
+ 
+num.b1 = getcode(sptr->c[0]); // getcode function is called 
+num.b2 = getcode(sptr->c[1]); // getcode function is called 
+num.b3 = getcode(sptr->c[2]); // getcode function is called 
+num.b4 = (*fun_ptr_arr[0])(sptr->c[3]); // calling getmul function through function pointer array
+num.b5 = (*fun_ptr_arr[1])(sptr->c[4]); // calling gettol function through function pointer array
 
 
 res = ((100*num.b1) + (num.b2*10) + num.b3)*num.b4;  // logic for calculating resistance
@@ -110,5 +110,5 @@ printf("Tolerance = +-%d percent\n", num.b5);
 else
     printf("Support Not available yet");
 
-    free(sptr);
+    free(sptr); // free the dynamically allocated memory
 }
