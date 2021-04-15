@@ -24,11 +24,13 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
    
 
 ## Challenges Faced and How Was It Overcome
+| No. | Challenge | Solution
+|-----|-----------|--------
+|1. | Memory leak while inputs to structure  | Implemented Dynamic Memory allocation but forgot to add free(sptr) function
+|2. | scanf() without field width limits can crash with huge input data.| Implemented calloc and used %1s format specifier |
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+
+
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
