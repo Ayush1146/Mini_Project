@@ -18,7 +18,7 @@ The main aim of this application is to simplify the process of calculating diffe
 ## Cost and Features with Time
 | Time |  Feature| Cost 
 |:--------:|:-------------:|:-------------:|
-| 0 | 0 | 0
+| 0 | Calculate resistance and tolerance for both 4 and 5 band resistors | free
 
 ## Defining Our System
 
@@ -65,4 +65,4 @@ The main aim of this application is to simplify the process of calculating diffe
 |LR02| Throw an error if the choice is out of bound | HR01 | Implemented |
 |LR03| User has to enter the colour of bands in an Orderd way | HR02 | Implemented |
 |LR04| Throw an error if the enterd input is out of bound | HR02 | Implemented |
-|LR05| Throw an error if any absurd value is detected | HR04 | Implemented |
+|LR05| Throw an error if any absurd value is detected | HR03 | Implemented |
