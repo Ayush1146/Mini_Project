@@ -58,7 +58,11 @@ The main aim of this application is to simplify the process of calculating diffe
 | HR02 | User shall be able to input the color of bands  | Technical | IMPLEMENTED |
 | HR03 | Output of the characteristics should be displayed   | Technical | IMPLEMENTED|
 ## Low Level Requirements:
-| ID | Description | Category | Status | 
-| ----- | ----- | ------- | ---------|
-| LR01 | User| Technical | TBD-S1 | 
-| LR02 | User | Technical | TBD-S1 |
+
+|ID  | Description | HLR-ID | Status (Implemented/Future)|
+|----|-------------|--------|----------------------------|
+|LR01| User has to enter the type of Resistor | HR01 | Implemented |
+|LR02| Throw an error if the choice is out of bound | HR01 | Implemented |
+|LR03| User has to enter the colour of bands in an Orderd way | HR02 | Implemented |
+|LR04| Throw an error if the enterd input is out of bound | HR02 | Implemented |
+|LR05| Throw an error if any absurd value is detected | HR04 | Implemented |
