@@ -3,6 +3,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/71a2f8b075c940fc87a62121a23d6f58)](https://app.codacy.com/gh/Ayush1146/Mini_Project?utm_source=github.com&utm_medium=referral&utm_content=Ayush1146/Mini_Project&utm_campaign=Badge_Grade_Settings)
 [![C/C++ CI](https://github.com/Ayush1146/Mini_Project/actions/workflows/c-build.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/c-build.yml) | [![cppcheck-action](https://github.com/Ayush1146/Mini_Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/cppcheck.yml) [![Valgrind](https://github.com/Ayush1146/Mini_Project/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/Valgrind.yml) | [![Unit testing](https://github.com/Ayush1146/Mini_Project/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/unit-test.yml) |  [![Contribution Check - Git Inspector](https://github.com/Ayush1146/Mini_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Ayush1146/Mini_Project/actions/workflows/gitinspector.yml)
 
 
