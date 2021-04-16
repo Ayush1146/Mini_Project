@@ -30,7 +30,7 @@ The main aim of this application is to simplify the process of calculating diffe
 
 ### SWOT Analysis 
 <p align="center">
-  <img width="572" height="432" src="https://github.com/Ayush1146/Mini_Project/blob/cde6585284df11325a49671b446a1914e66fa354/1_Requirements/SWOT.png">
+  <img width="800" height="560" src="https://github.com/Ayush1146/Mini_Project/blob/cde6585284df11325a49671b446a1914e66fa354/1_Requirements/SWOT.png">
 </p>
 
 ## 4W's and 1'H
