@@ -37,27 +37,38 @@ The main aim of this application is to simplify the process of calculating diffe
 
 # 4W's and 1'H
 
-## What: 
+## What
+
+
 * The process of calculating the resistance and tolerance of resistor was very complicated and time consuming.
-## When:
-* This issue occurs every time we have to calculate the characteristics of a resistor for applying it for some kind of application.
-## Where:
-* In every single project where we need to implement and calculate the characteristics of our resistor.
-## Who:
-* All the industries and the users who works with the application of resistors.
 
-## How:
-* This problem have been caused by complexed and time consuming method of calculating the characteristics of a resistor.
+## When
 
-# Detail Requirements:
+- This issue occurs every time we have to calculate the characteristics of a resistor for applying it for some kind of application.
+## Where
 
-## High Level Requirements:
+- In every single project where we need to implement and calculate the characteristics of our resistor.
+
+
+## Who
+
+- All the industries and the users who works with the application of resistors.
+
+## How
+
+
+- This problem have been caused by complexed and time consuming method of calculating the characteristics of a resistor.
+
+
+## Detail Requirements
+
+## High Level Requirements
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
 | HR01 | User shall be able to select type of resistor | Technical | IMPLEMENTED | 
 | HR02 | User shall be able to input the color of bands  | Technical | IMPLEMENTED |
 | HR03 | Output of the characteristics should be displayed   | Technical | IMPLEMENTED|
-## Low Level Requirements:
+## Low Level Requirements
 
 |ID  | Description | HLR-ID | Status (Implemented/Future)|
 |----|-------------|--------|----------------------------|
