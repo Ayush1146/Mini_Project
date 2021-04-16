@@ -58,9 +58,6 @@ valgrind:
 doc:
 	make -C ./documentation
 	
-debug:
-	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJECT_NAME).$(EXEC)
-	gdb $(PROJECT_NAME).$(EXEC)
 
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lm
