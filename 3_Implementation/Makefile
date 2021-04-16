@@ -25,14 +25,14 @@ TEST_SRC = src/operations.c\
 test/test.c\
 unity/unity.c\
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
 
 INC	= -Iinc\
 -Iunity\
 
 INCLUDE_LIBS = -lcunit
 
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).$(EXEC)
 
 DOCUMENTATION_OUTPUT = documentation/html
 
