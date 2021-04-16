@@ -54,9 +54,6 @@ cppcheck:
 
 valgrind:
 	valgrind ./$(PROJECT_OUTPUT)
-		
-doc:
-	make -C ./documentation
 	
 
 test:$(BUILD)
